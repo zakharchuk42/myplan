@@ -4,7 +4,7 @@ const schema = require('./schema/schema')
 const mongoose = require('mongoose')
 const cors = require('cors')
 
-const SERVER_PORT = 5000
+const SERVER_PORT = process.env.PORT || 2020
 const URL = 'mongodb+srv://trickster:629256qwe@cluster0.hujat.mongodb.net/myPlan'
 
 const app = express()
