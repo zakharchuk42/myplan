@@ -11,6 +11,8 @@ const Header = () => {
   return (
     <div className='Header'>
       <nav className='Header__menu'>
+        <NavLink className='Header__link' to="/" >
+          <img src={note} alt='notes' />Home</NavLink>
         <NavLink className='Header__link' to="/all-notes" >
           <img src={note} alt='notes' />All notes</NavLink>
         <NavLink className='Header__link' to="/all-users" >
