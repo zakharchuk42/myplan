@@ -1,5 +1,5 @@
-client - npm run start
+client - npm run watch
 
-server - npm run dev
+server - npm run watch
 
 rsc - новый компонент
