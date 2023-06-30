@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 const SERVER_PORT = process.env.PORT || 2020
-const URL = 'mongodb+srv://trickster:629256qwe@cluster0.hujat.mongodb.net/myPlan'
+const URL = 'mongodb+srv://trickster:<pass>@cluster0.hujat.mongodb.net/myPlan'
 
 const app = express()
 app.use(cors())
